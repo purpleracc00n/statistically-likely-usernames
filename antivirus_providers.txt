@@ -1,4 +1,4 @@
-sophosx
+sophos
 bitdefender
 comodo
 avast
