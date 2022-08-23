@@ -1,3 +1,22 @@
+# Fork update
+
+Added:
+- antivirus-providers.txt
+- other-thirdparties.txt
+
+Improved:
+- service-accounts.txt
+
+Also their mutations:
+- antivirus-providers-mutated.txt
+- other-thirdparties-mutated.txt
+- service-accounts-mutated.txt
+
+to mutate a list, I used:
+```
+while read line; do echo "$line"admin; echo "$line"adm; echo "$line"_adm; echo "$line".adm; echo "$line"srv; echo "$line"_srv; echo "$line".srv; echo "$line".admin; echo "$line"_admin; echo "$line"administrator; echo "$line".administrator; echo "$line"_administrator; echo "$line"service; echo "$line"_service; echo "$line".service; echo "$line"serv; echo "$line"_serv; echo "$line".serv; echo "$line"backup; echo "$line"_backup; echo "$line".backup; echo admin"$line"; echo adm"$line"; echo admin_"$line"; echo adm_"$line"; echo admin."$line"; echo adm."$line"; echo srv"$line"; echo srv_"$line"; echo srv."$line"; echo administrator"$line"; echo administrator_"$line"; echo administrator."$line" ; echo service"$line" ; echo service_"$line"; echo service."$line"; echo serv"$line"; echo serv_"$line"; echo serv."$line"; echo backup"$line"; echo backup_"$line"; echo backup."$line"; done < {{wordlist_file}} | sort -u
+```
+
 # statistically-likely-usernames
 This resource contains wordlists for creating statistically likely usernames for use in username-enumeration, simulated password-attacks and other security testing tasks.
 
