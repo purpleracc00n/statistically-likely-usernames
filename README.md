@@ -3,7 +3,7 @@
 Added:
 - antivirus-providers.txt
 - other-thirdparties.txt
-- ancient-greek-names.txt (taken from https://packetstormsecurity.com/files/160986/Ancient-Greek-Names-Wordlist.html)
+- greek-names.txt (taken from https://packetstormsecurity.com/files/160986/Ancient-Greek-Names-Wordlist.html)
 
 Improved:
 - service-accounts.txt
