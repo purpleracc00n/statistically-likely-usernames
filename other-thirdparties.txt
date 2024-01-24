@@ -7,6 +7,17 @@ autodesk
 avantec
 avaya
 BMC
+twitter
+facebook
+youtube
+amazon
+bloomberg
+reuters
+wechat
+volta
+hackerone
+sonos
+samsung
 cisco
 citrix
 dell

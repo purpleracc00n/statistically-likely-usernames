@@ -6,15 +6,19 @@ avast
 avg
 avira
 baidu
+barracuda
 bitdefender
 checkpoint
+citrix
 clamav
 comodo
+crowd
 crowdstrike
 cyberreason
 cylance
 cynet
 cyren
+darktrace
 drweb
 elastic
 emsisoft
@@ -24,6 +28,7 @@ falcon
 fireeye
 forti
 fortiguard
+fortimanager
 fortinet
 f-secure
 fsecure
@@ -35,6 +40,7 @@ k7
 k7antivirus
 kaspersky
 kingsoft
+knowbe4
 lionic
 malwarebytes
 max
@@ -43,6 +49,7 @@ mcafee
 microsoft
 ms
 nano
+nscaler
 paloalto
 panda
 quickheal
@@ -51,10 +58,12 @@ sangfor
 secureage
 sentinel
 sentinelone
+solarwinds
 sophos
 sophosmanagement
 sophoswebuser
 sophosxg
+splunk
 symatec
 tachyon
 tehtris
