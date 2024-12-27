@@ -550,6 +550,7 @@ test-sync
 test.sync
 test_sync
 testsystem
+systemstest
 testteam
 test-test
 test.test
