@@ -4,6 +4,7 @@ Added:
 - antivirus-providers.txt
 - other-thirdparties.txt
 - greek-names.txt (taken from https://packetstormsecurity.com/files/160986/Ancient-Greek-Names-Wordlist.html)
+- AdminAccounts/ (some generic admin naming conventions)
 
 Improved:
 - service-accounts.txt
@@ -13,9 +14,26 @@ Also their mutations:
 - other-thirdparties-mutated.txt
 - service-accounts-mutated.txt
 
-to mutate a list, I used:
+To mutate a list, I used:
 ```
 python3 mutator.py -f {input_wordlist} | sort -u > {input_wordlist}-mutated.txt
+```
+
+Another way in which you can use the mutator is to provide some short names for the target organisation and it will generate other mutated lists:
+
+```
+python3 mutator.py -f service-accounts.txt -n acme,etc. | sort -u 
+
+acme_aadconnect
+acme_accountsfax
+acme_accountspayable
+acme_adc
+...
+aadconnect_acme
+accountsfax_acme
+accountspayable_acme
+adc_acme
+...
 ```
 
 # statistically-likely-usernames
